@@ -15,7 +15,7 @@ SQL Script
 To create the cached_weathers table, use the following SQL script:
 
 sql
-Copy code
+```sql
 CREATE TABLE cached_weathers (
     id INT AUTO_INCREMENT PRIMARY KEY,
     city_name VARCHAR(255) NOT NULL,
@@ -23,6 +23,7 @@ CREATE TABLE cached_weathers (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
+```sql
 This README provides instructions to set up the necessary database structure for the WeatherApp project. You can run the SQL script provided to create the required table. Adjust the database configuration in the project accordingly to connect to the weatherapp database.
 
 Feel free to customize this README based on your project's specific requirements and add any additional setup or configuration instructions.
