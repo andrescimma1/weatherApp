@@ -1,5 +1,5 @@
 # WeatherApp Database Setup
-This project requires a MySQL database named weatherapp and a table named cached_weathers to store cached weather data.
+This project requires a MySQL database named **weatherapp** and a table named **cached_weathers** to store cached weather data.
 
 Table Structure
 
