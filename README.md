@@ -27,4 +27,11 @@ CREATE TABLE cached_weathers (
 ```
 This README provides instructions to set up the necessary database structure for the WeatherApp project. You can run the SQL script provided to create the required table. Adjust the database configuration in the project accordingly to connect to the weatherapp database.
 
+### API Endpoints
+
+- **Current Weather**: `/api/current?query=New%20York`
+  - Fetches the current weather data for a specific city.
+- **BA Weather**: `/api/ba_weather`
+  - Retrieves weather information for Buenos Aires.
+
 Feel free to customize this README based on your project's specific requirements and add any additional setup or configuration instructions.
